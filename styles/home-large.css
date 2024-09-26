@@ -1,0 +1,30 @@
+/* @media (min-width: 750px) {
+    main {
+        max-width: 100%;
+    }
+    
+    /* #menu {
+      display: none;
+    } */
+  
+    .navList {
+      display: flex;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    .navList li {
+        flex: 1 1 100%;
+        display: block;
+    }
+
+    .navList a {
+        text-align: center;
+    }
+
+    nav {
+        grid-column: 1/4;
+    }
+} */

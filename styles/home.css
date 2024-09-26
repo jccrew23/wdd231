@@ -1,0 +1,249 @@
+:root {
+    --heading-font: Quattrocento, sans serif;
+    --paragraph-font: Lora, sans serif;
+
+    --primary-color: #FFFFFF;
+    --secondary-color: #88B7B5;
+    --accent-color: #45425A;
+}
+
+body {
+    margin: auto;
+    width: 100%;
+    padding: 10;
+    background-color: var(--secondary-color);
+}
+
+main {
+    max-width: 100%;
+    margin: auto;
+    background-color: white;
+    opacity: 100%;
+    padding: 20px;
+}
+
+header {
+    background-color: var(--primary-color);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1 1 1 100%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+}
+
+.title {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 1 1 1 1 100%;
+}
+
+
+#headshot {
+    grid-column: 1/2;
+    padding: 20px;
+    border: 3px solid var(--accent-color);
+    margin: 5px;
+    padding: 2px;
+}
+
+#name {
+    grid-column: 2/5;
+    padding-left: 20px;
+}
+
+#menu {
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    
+}
+
+#menu::before {
+	content: "≡";
+}
+
+#menu.show::before {
+    content: "X";
+}
+
+.navList {
+   margin: 0 auto;
+   max-width: 760px;
+    list-style-type: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+  
+.navList a { 
+    display: block;
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+    font-size: 1.25rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin: 0 auto;
+  }
+
+.navList li {
+    /* display: none; */
+    margin: 0 auto;
+    display: none;
+  }
+
+.navList li:hover {
+    text-decoration: wavy underline var(--primary-color) 2px;
+}
+
+.show li{
+    display: block;
+}
+
+nav {
+    grid-column: 2/4;
+    background-color: var(--accent-color);
+}
+
+.courseWork {
+    padding: 20px;
+    box-shadow: 5px 5px 10px 5px gray;
+    margin: 10px;
+    text-align: center;
+}
+
+.country {
+    padding: 20px;
+    box-shadow: 5px 5px 10px 5px gray;
+    margin: 10px;
+    text-align: center;
+    display: block;
+}
+
+.certificate {
+    padding: 20px;
+    box-shadow: 5px 5px 10px 5px gray;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 80%;
+}
+
+#virginiaPic {
+    margin-left: 85px;
+    text-align: center;
+}
+
+figure figcaption {
+    text-align: center;
+    font-family: var(--paragraph-font);
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+.filters {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 0;
+    align-content: center;
+    justify-items: center;
+}
+
+.certView {
+    margin: auto;
+}
+
+h3 {
+    width: 100px;
+    background-color: var(--accent-color);
+    color: white;
+    text-align: center;
+}
+
+#certCourses {
+    font-family: var(--paragraph-font);
+    border: 2px solid var(--secondary-color);
+    display: flex;
+    
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+footer {
+    font-family: var(--paragraph-font);
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+@media (min-width: 750px) {
+    main {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1 1 1 100%;
+    }
+    
+    #menu {
+      display: none;
+    }
+  
+    .navList {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-content: space-around;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    .navList li {
+        flex: 1 1 100%;
+        display: block;
+    }
+
+    .navList a {
+        text-align: center;
+    }
+
+    nav {
+        grid-column: 1/4;
+    }
+
+    .courseWork {
+        grid-column: 1/3;
+        padding: 20px;
+        box-shadow: 5px 5px 10px 5px gray;
+        margin:10px;
+    }
+
+    .country {
+        grid-column: 3/4;
+
+    }
+
+    #virginiaPic {
+        width: 60px
+    }
+
+    .certificate {
+        grid-column: 1/4;
+        max-width: 80%;
+    }
+}
