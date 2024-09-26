@@ -10,7 +10,7 @@
 body {
     margin: auto;
     width: 100%;
-    padding: 10;
+    padding: 0;
     background-color: var(--secondary-color);
 }
 
@@ -26,7 +26,7 @@ header {
     background-color: var(--primary-color);
     width: 100%;
     display: grid;
-    grid-template-columns: 1 1 1 100%;
+    grid-template-columns: 1fr 1fr 1fr 100%;
 }
 
 h1 {
@@ -43,7 +43,7 @@ h1, h2, h3, h4 {
     text-align: center;
     grid-column: 1/4;
     display: grid;
-    grid-template-columns: 1 1 1 1 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 100%;
 }
 
 
@@ -93,7 +93,6 @@ h1, h2, h3, h4 {
   }
 
 .navList li {
-    /* display: none; */
     margin: 0 auto;
     display: none;
   }
@@ -195,7 +194,7 @@ footer {
     main {
         max-width: 100%;
         display: grid;
-        grid-template-columns: 1 1 1 100%;
+        grid-template-columns: 1fr 1fr 1fr 100%;
     }
     
     #menu {
