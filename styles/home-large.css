@@ -3,9 +3,9 @@
         max-width: 100%;
     }
     
-    /* #menu {
+        #menu {
       display: none;
-    } */
+    }
   
     .navList {
       display: flex;
