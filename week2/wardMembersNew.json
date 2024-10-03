@@ -1,0 +1,29 @@
+{
+    "familyName" : "Curtis",
+    "moveInDate" : "06/19/2023",
+    "numInFam" : 4,
+    "bishopricVisit" : true,
+    "members" : [
+      {
+        "name" : "Carey",
+        "gender" : "M",
+        "birthdate" : "02/19/1995"
+      },
+      {
+        "name" : "Jalie",
+        "gender" : "F",
+        "birthdate" : "10/23/1995"
+      },
+      {
+        "name" : "Jonas",
+        "gender" : "M",
+        "birthdate" : "07/19/2018"
+      },
+      {
+        "name" : "August",
+        "gender" : "M",
+        "birthdate" : "08/10/2025"
+      }
+    ]
+  }
+
