@@ -81,18 +81,62 @@
 //     }
 // ];
 
+//save the url
+const url = 'https://jccrew23.github.io/wdd231/chamber/data/partners.json';
+
+//grab section from HTML
+const cards = document.querySelector('#members');
+
+//function for fetch
+async function getPartnerData() {
+    const response = await fetch(url);
+    const data = await response.json();
+    // console.table(data.partners); temp testing
+    displayCards(data.partners);
+}
+
+getPartnerData();
+
 //create function
-function displayCards(cards) {
+function displayCards(data) {
 
     //reset gallery
-    document.querySelector('#members').innerHTML = '';
+    cards.innerHTML = '';
 
     //look through each item in array
-    cards.forEach(partner =>{
-        const crd = document.createElement('section');
-        crd.setAttribute('class','card');
-        const partnerName = document.createElement('h3');
-        const 
+    data.forEach(partner =>{
 
+        //create elements
+        let crd = document.createElement('section');
+        crd.setAttribute('class','card');
+        let partnerName = document.createElement('h3');
+        let industryType = document.createElement('h4');
+        let picture = document.createElement('img');
+
+        //set picture attributes
+        picture.setAttribute('src','partner.imgFile');
+        picture.setAttribute('alt','picture of partner business in Chamber of commerce');
+        picture.setAttribute('loading','lazy');
+        picture.setAttribute('width','100');
+        let address = document.createElement('p');
+        let phone = document.createElement('p');
+        let web = document.createElement('p');
+
+        //add text
+        partnerName.innerHTML = partner.businessName;
+        industryType.innerHTML = partner.industry;
+        address.innerHTML = `<strong>Address:</strong> ${partner.address}`;
+        phone.innerHTML = `<strong>Phone:</strong> ${partner.phoneNum}`;
+        web.innerHTML = `<strong>URL</strong> ${partner.url}`;
+
+        //append to card and document
+        crd.appendChild(partnerName);
+        crd.appendChild(industryType);
+        crd.appendChild(picture);
+        crd.appendChild(address);
+        crd.appendChild(phone);
+        crd.appendChild(web);
+
+        cards.appendChild(crd);
     })
-}
+};
