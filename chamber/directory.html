@@ -23,18 +23,21 @@
     <script src="scripts/dates.js" defer></script>
     <script src="scripts/directory.js" defer></script>
     <script src="scripts/menu.js" defer></script>
+    <link rel="stylesheet" href="styles/directory.css">
 </head>
 <body>
     <header>
-        <section>
+        <section class="headerTitle">
             <img src="images/RkeChamberCommWDD231Logo.webp">
             <h1>Roanoke Valley</h1>
             <h2>Chamber of Commerce</h2>
         </section>
-        <section>
-            <span id="hamMenu"></span>
+        <section class="menu">
+            <button id="hamMenu" type=button">
+                <img src="images/menu-bar.png" alt="<a href="Menu bar icons created by Md Tanvirul Haque - Flaticon width="24">
+            </button>
             <nav>
-                <ul id="navigation">
+                <ul class="navigation">
                     <li><a href=" ">Home</a></li>
                     <li><a href=" " id="active">Directory</a></li>
                     <li><a href=" ">Join</a></li>
@@ -44,10 +47,14 @@
         </section>
     </header>
     <main>
-        <section>
+        <section class="image">
             <img id="heroImg" src="images/downtownHero copy.webp" alt="night-view overhead shot of Roanoke, Virginia with bright lights">
-            <h2>Chamber Partners</h2>
-            <h3>Connect - Build - Succeed</h3>
+            <article class="title">
+                <h2>Chamber Partners</h2>
+                <h3>Connect - Build - Succeed</h3>
+            </article>
+        </section>
+        <section class="views">
             <button id="gridView" type="button">
                 <img src="images/grid-view-svgrepo-com.png" alt="grid view icon" width="100">
             </button>
@@ -55,24 +62,24 @@
                 <img src="images/view-list-svgrepo-com.png" alt="list viel ikcon" width="100">
             </button>
         </section>
-        <section>
-            <span id="members"></span>
+        <section class="partnerGallery">
+            <span class="grid" id="members"></span>
         </section>
     </main>
     <footer>
-        <section>
+        <section class="contact">
             <p>Roanoke Valley Chamber of Commerce</p>
             <p>1023 Memorial Avenue</p>
             <p>Roanoke, VA 24012</p>
             <p>info@rkevalleychamber.com</p>
             <p>(540) 543-2050</p>
         </section>
-        <section>
-            <a href="https://www.youtube.com/@jaliellecurtis1456" class="socialMedia"></a>
-            <a href="https://x.com/jaliep15" class="socialMedia"></a>
-            <a href="https://www.facebook.com/jalie.powell/" class="socialMedia"></a>
+        <section class="socials">
+            <a href="https://www.youtube.com/@jaliellecurtis1456" class="fa fa-youtube"></a>
+            <a href="https://x.com/jaliep15" class="fa fa-twitter"></a>
+            <a href="https://www.facebook.com/jalie.powell/" class="fa fa-facebook"></a>
         </section>
-        <section>
+        <section class="course">
             <p>WDD 231 Class Project</p>
             <p>Jalielle Curtis</p>
             <span id="currentyear"></span>

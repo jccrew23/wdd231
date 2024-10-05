@@ -1,8 +1,8 @@
 //find the area in the document
-menu = document.querySelector('#hamMenu');
-nav = document.querySelector('#navigation');
+const menu = document.querySelector('#hamMenu');
+const nav = document.querySelector('.navigation');
 
-menu.addEventListener('click', () => {
+menu.addEventListener('click', () =>{
     nav.classList.toggle('show');
     menu.classList.toggle('show');
 });

@@ -145,18 +145,20 @@ function displayCards(data) {
 // toggle grid view
 const listToggle = document.querySelector('#listView');
 const gridToggle = document.querySelector('#gridView');
+const display = document.querySelector('#members');
 
 
 listToggle.addEventListener('click', () => {
-    cards.classlist.add('list');
-    cards.classlist.remove('grid');
-
-    displayCards(data.partners);
+    display.classList.add('list');
+    display.classList.remove('grid');
 });
 
 gridToggle.addEventListener('click', () => {
-    cards.classlist.add('grid');
-    cards.classlist.remove('list');
-
-    displayCards(data.partners);
+    if (display.classList.contains('grid')) {
+        
+        display.classList.remove('list')
+    } else {
+        display.classList.add('grid');
+        display.classList.remove('list');
+    }
 });
