@@ -127,7 +127,7 @@ function displayCards(data) {
         industryType.innerHTML = partner.industry;
         address.innerHTML = `<strong>Address:</strong> ${partner.address}`;
         phone.innerHTML = `<strong>Phone:</strong> ${partner.phoneNum}`;
-        web.innerHTML = `<strong>URL</strong> ${partner.url}`;
+        web.innerHTML = `<strong>URL:</strong> ${partner.url}`;
 
         //append to card and document
         crd.appendChild(partnerName);
@@ -140,3 +140,22 @@ function displayCards(data) {
         cards.appendChild(crd);
     })
 };
+
+// toggle grid view
+const listToggle = document.querySelector('#listView');
+const gridToggle = document.querySelector('#gridView');
+
+
+listToggle.addEventListener('click', () => {
+    cards.classlist.add('list');
+    cards.classlist.remove('grid');
+
+    displayCards(data.partners);
+});
+
+gridToggle.addEventListener('click', () => {
+    cards.classlist.add('grid');
+    cards.classlist.remove('list');
+
+    displayCards(data.partners);
+});

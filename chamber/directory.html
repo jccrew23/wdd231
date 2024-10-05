@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="scripts/dates.js" defer></script>
     <script src="scripts/directory.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
 </head>
 <body>
     <header>
@@ -31,8 +32,9 @@
             <h2>Chamber of Commerce</h2>
         </section>
         <section>
+            <span id="hamMenu"></span>
             <nav>
-                <ul>
+                <ul id="navigation">
                     <li><a href=" ">Home</a></li>
                     <li><a href=" " id="active">Directory</a></li>
                     <li><a href=" ">Join</a></li>
@@ -46,6 +48,12 @@
             <img id="heroImg" src="images/downtownHero copy.webp" alt="night-view overhead shot of Roanoke, Virginia with bright lights">
             <h2>Chamber Partners</h2>
             <h3>Connect - Build - Succeed</h3>
+            <button id="gridView" type="button">
+                <img src="images/grid-view-svgrepo-com.png" alt="grid view icon" width="100">
+            </button>
+            <button id="listView" type="button">
+                <img src="images/view-list-svgrepo-com.png" alt="list viel ikcon" width="100">
+            </button>
         </section>
         <section>
             <span id="members"></span>
