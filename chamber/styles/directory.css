@@ -164,10 +164,6 @@ h2 {
 .card p {
     font-size: 12px;
     padding: 0;
-    margin: 5px;
-}
-
-.card img {
     max-width:100px;
 }
 
