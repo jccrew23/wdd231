@@ -112,9 +112,10 @@ function displayCards(data) {
         let partnerName = document.createElement('h3');
         let industryType = document.createElement('h4');
         let picture = document.createElement('img');
+        const imgFile = partner.imgFile;
 
         //set picture attributes
-        picture.setAttribute('src','partner.imgFile');
+        picture.setAttribute('src', imgFile);
         picture.setAttribute('alt','picture of partner business in Chamber of commerce');
         picture.setAttribute('loading','lazy');
         picture.setAttribute('width','100');

@@ -5,7 +5,7 @@
             "address" : "175 Apple Farm Lane Roanoke, VA 24002",
             "phoneNum" : "(540)984-3452",
             "url" : "applevalleyfrm.com",
-            "imgFile": "../images/apple-farm.webp",
+            "imgFile": "images/apple-farm.webp",
             "imgCredit" : "Image by Michael Strobel from Pixabay",
             "memLevel": 1,
             "industry" : "Agriculture"
@@ -15,7 +15,7 @@
             "address" : "990 Hardy Drive Roanoke, VA 24018",
             "phoneNum" : "(540)914 0298",
             "url" : "rkesbestpizza.com",
-            "imgFile" : "../images/pizza.webp",
+            "imgFile" : "images/pizza.webp",
             "imgCredit" : "Photo by Cats Coming",
             "memLevel" : 3,
             "industry" : "Culinary"
@@ -25,7 +25,7 @@
             "address" : "26 Wasena Way Roanoke, VA 24005",
             "phoneNum" : "(540)967-2500",
             "url" : "reserveatwasena.com",
-            "imgFile" : "../images/reserve-apartments.webp",
+            "imgFile" : "images/reserve-apartments.webp",
             "imgCredit" : "Photo by Luis Quintero",
             "memLevel" : 2,
             "industry" : "Housing"
@@ -35,7 +35,7 @@
             "address" : "2011 Cook Lane Roanoke, VA 24153",
             "phoneNum" : "(540)208-0527",
             "url" : "tidyinc.com",
-            "imgFile" : "../images/portable-toilets.webp",
+            "imgFile" : "images/portable-toilets.webp",
             "imgCredit" : "Image by Paul Brennan from Pixabay",
             "memLevel" : 3,
             "industry" : "Sanitation"
@@ -45,7 +45,7 @@
             "address" : "5765 Wild Drive Roanoke, VA 24002",
             "phoneNum" : "(540)674-5566",
             "url" : "rkerockcorp.com",
-            "imgFile" : "../images/masonry.webp",
+            "imgFile" : "images/masonry.webp",
             "imgCredit" : "Image by Leo from Pixabay",
             "memLevel" : 1,
             "industry" : "Masonry"
@@ -55,7 +55,7 @@
             "address" : "1005 Colorado Ave SE Roanoke, VA 24013",
             "phoneNum" : "(540)387-3977",
             "url" : "swvadanceco.com",
-            "imgFile" : "../images/dance-school.webp",
+            "imgFile" : "images/dance-school.webp",
             "imgCredit" : "Photo by Ricardo Moura",
             "memLevel" : 2,
             "industry" : "Education"
@@ -65,7 +65,7 @@
             "address" : "2759 Electric Drive Roanoke, VA 24018",
             "phoneNum" : "(540)725-5801",
             "url" : "dannydennisesq.com",
-            "imgFile" : "../images/law-firm.webp",
+            "imgFile" : "images/law-firm.webp",
             "imgCredit" : "Photo by Sora Shimazaki",
             "memLevel" : 1,
             "industry" : "Law"
@@ -75,7 +75,7 @@
             "address" : "4819 Starkey Drive NE Roanoke, VA 24015",
             "phoneNum" : "(540)988-8000",
             "url" : "dellfamilydental.com",
-            "imgFile" : "../images/dentist.webp",
+            "imgFile" : "images/dentist.webp",
             "imgCredit" : "Image by Memed_Nurrohmad from Pixabay",
             "memLevel" : 3,
             "industry" : "Dental"
@@ -85,7 +85,7 @@
             "address" : "3802 Electric Drive Roanoke, VA 24018",
             "phoneNum" : "(540)989-4556",
             "url" : "starcityrealty.com",
-            "imgFile" : "../images/realtor.webp",
+            "imgFile" : "images/realtor.webp",
             "imgCredit" : "Photo by Pavel Danilyuk",
             "memLevel" : 2,
             "industry" : "Realty"
@@ -95,7 +95,7 @@
             "address" : "335 W Main Street Roanoke, VA 24153",
             "phoneNum" : "(540)302-3200",
             "url" : "unitedvalleycu.com",
-            "imgFile" : "../images/credit-union.webp",
+            "imgFile" : "images/credit-union.webp",
             "imgCredit" : "Photo by Erik Mclean",
             "memLevel" : 3,
             "industry" : "Banking"
