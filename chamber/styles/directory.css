@@ -130,6 +130,7 @@ h2 {
 #gridView button,
 #listView button {
     background-color: var(--secondaryColor);
+    width: 100px;
 }
 
 .grid {
@@ -181,7 +182,7 @@ h2 {
 }
 
 .card img {
-    max-width: 100px;
+    width: 100px;
 }
 
 footer {
@@ -223,14 +224,17 @@ footer {
 
   .fa-twitter {
     background: #55ACEE;
+    max-width: 24px;
   }
 
   .fa-youtube {
     background: white;
+    max-width: 24px;
   }
 
   .fa-facebook {
     background: #3B5998;
+    max-width: 24px;
   }
   
 
