@@ -120,6 +120,7 @@ function displayCards(data) {
         picture.setAttribute('loading','lazy');
         picture.setAttribute('width','100');
         let address = document.createElement('p');
+        address.setAttribute('class','address');
         let phone = document.createElement('p');
         let web = document.createElement('p');
 

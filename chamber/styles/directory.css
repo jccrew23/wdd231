@@ -95,8 +95,8 @@ h2 {
     background-color: black;
     color: white;
     opacity: 80%;
-    position: absolute;
-    top: 195px;
+    position: relative;
+    display: block;
     width: 100%;
     text-align: center;
 }
@@ -134,16 +134,20 @@ h2 {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
     grid-gap: 10px;
     align-items: center;
     margin: auto;
     text-align: center;
 }
 
+.grid img {
+    max-width: 100px;
+}
 .list {
 	display: flex;
 	flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .list section {
@@ -153,8 +157,12 @@ h2 {
 	padding: 0.25rem;
 }
 
-.list section img {
+.list section img, h4 {
 	display: none; /* smaller viewports only */
+}
+
+.list.address {
+    display: none;
 }
 
 .card {
@@ -163,9 +171,13 @@ h2 {
 }
 
 .card p {
-    font-size: 15px;
+    font-size: 1rem;
     padding: 0;
     text-align: center;
+}
+
+.card h3, h4 {
+    font-size: 1.25rem;
 }
 
 .card img {
@@ -267,6 +279,7 @@ footer {
 
     .list section img {
         display: inline-block; /* smaller viewports only */
+        max-width: 100px;
     }
 
     footer {
