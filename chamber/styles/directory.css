@@ -236,6 +236,15 @@ footer {
         top: 350px;
     }
 
+    .title h2 {
+        font-size: 40px;
+    }
+
+    .title h3 {
+        font-size: 20px;
+    }
+
+
     .menu{
         grid-column: 2/3;
     }
