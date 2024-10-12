@@ -1,0 +1,27 @@
+:root {
+    --headingFont: Oswald, sans serif;
+    --paragraphFont: Noto Serif, san serif;
+    
+    --primaryColor: white;
+    --secondaryColor: #D3D3D3;
+    --accentColor:#023047;
+}
+
+body {
+    max-width: 100%;
+    padding: 0;
+    margin: auto;
+}
+main {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--headingFont);
+}
+
+p, li {
+    font-family: var(--paragraphFont);
+}

@@ -1,0 +1,172 @@
+:root {
+    --headingFont: Oswald, sans serif;
+    --paragraphFont: Noto Serif, san serif;
+    
+    --primaryColor: white;
+    --secondaryColor: #D3D3D3;
+    --accentColor:#023047;
+}
+
+header {
+    background-color: var(--secondaryColor);
+}
+
+header:hover {
+    opacity: 80%;
+}
+
+nav {
+    margin-top: 40px;   
+}
+
+#active {
+    border-bottom: 2px solid black;
+}
+
+.navigation.show li {
+    display: block;
+}
+
+.navigation li {
+    width: 100%;
+    height: 1.5rem;
+    list-style-type: none;
+    text-align: center;
+    display: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navigation li:hover {
+    background-color: var(--accentColor);
+    color: white;
+}
+
+#hamMenu {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+
+.headerTitle img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-top: 15px;
+    margin-right: 20px;
+} 
+
+.headerTitle {
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+    text-align: center;
+
+}
+
+footer {
+    background-color: var(--secondaryColor);
+    font-size: 9px;
+}
+
+.contact {
+    padding: 1rem;
+    text-wrap:pretty;
+    font-family: var(--paragraphFont);
+    vertical-align: bottom;
+}
+
+.socials {
+    margin-top: 30px;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    vertical-align: bottom;
+}
+
+.course {
+    padding: 1rem;
+    text-wrap: pretty;
+    font-family: var(--paragraphFont);
+    vertical-align: bottom;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    border-radius: 50%;
+
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    max-width: 15px;
+  }
+
+  .fa-youtube {
+    background: white;
+    max-width: 15px;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    max-width: 15px;
+    max-height: 10px;
+    align-items: center;
+  }
+
+@media (min-width: 750px) {
+    header {
+        display: grid;
+        grid-template-columns: 1 1 100%;
+    }    
+
+    .menu{
+        grid-column: 2/3;
+    }
+
+    #hamMenu {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+
+    .navigation li {
+        display: block;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: 1 1 1 100%;
+    }
+
+    .contact {
+        grid-column: 1/2;
+    }
+    .socials {
+        grid-column: 2/3;
+        
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .course {
+        grid-column: 3/4;
+    }
+
+}
