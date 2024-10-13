@@ -76,7 +76,6 @@ footer {
     padding: 1rem;
     text-wrap:pretty;
     font-family: var(--paragraphFont);
-    vertical-align: bottom;
 }
 
 .socials {
@@ -85,21 +84,18 @@ footer {
     text-align: center;
     display: flex;
     flex-direction: column;
-    vertical-align: bottom;
 }
 
 .course {
     padding: 1rem;
     text-wrap: pretty;
     font-family: var(--paragraphFont);
-    vertical-align: bottom;
 }
 
 .fa {
     padding: 20px;
     font-size: 30px;
     text-align: center;
-    vertical-align: middle;
     text-decoration: none;
     border-radius: 50%;
 
