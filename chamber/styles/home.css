@@ -13,9 +13,10 @@ body {
     margin: auto;
 }
 main {
-    max-width: 100%;
+    max-width: 1200px;
     box-sizing: border-box;
     margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 h1, h2, h3, h4 {
@@ -26,8 +27,90 @@ p, li {
     font-family: var(--paragraphFont);
 }
 
+#heroPic {
+    max-width: 100%;
+}
+
+.info h2 {
+    background-color: var(--accentColor);
+    color: white;
+    width: 100%;
+}
+
+.events ul {
+    padding: 30px;
+}
+
+.join p, button {
+    padding: 30px;
+}
+
+.weather h2 {
+    white-space-collapse: preserve;
+}
+
+.events, .join, .weather {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: var(--secondaryColor);
+    /* padding: 30px; */
+    max-width: 300px;
+    text-align: center;
+    margin: 20px auto 20px auto;
+}
+
+#membership {
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 100px;
+  background-color: var(--accentColor);
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 87% at 26% 20%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 2px 19px 31px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+}
+
+#businesses h2{
+    text-align: center;
+    width: 100%;
+    padding: 30px 0 30px 0;
+    background-color: var(--accentColor);
+    color: white;
+}
+
+.ad {
+    box-shadow: var(--accentColor) 0px 20px 30px -10px;
+    max-width: 350px;
+    max-height: 100%;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.ad img {
+    width: 50;
+    height: 50;
+}
+
+
 
 
 @media (min-width: 750px) {
+    .info {
+        display: flex;
+        justify-content: space-around;
+        margin: -150px auto auto auto;
+    }
 
+    #ads {
+        display: flex;
+        justify-content: space-around;
+    }
 }

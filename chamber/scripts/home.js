@@ -38,6 +38,7 @@ function busAd(businesses) {
     shortSilverAndGold.forEach(item => {
 //create elements
         let section = document.createElement('section');
+        section.setAttribute('class','ad');
         let logo = document.createElement('img');
         const imgFile = item.imgFile;
         //picture attribtes
@@ -57,10 +58,10 @@ function busAd(businesses) {
         address.innerHTML = item.address;
         web.innerHTML = item.url;
         if (item.memLevel == 2) {
-            level.innerHTML = `Silver Member`;
+            level.innerHTML = `<em>Silver Member</em>`;
         }
         else {
-            level.innerHTML =  `Gold Member`;
+            level.innerHTML =  `<em>Gold Member</em>`;
         };
 
         //add to section and page
