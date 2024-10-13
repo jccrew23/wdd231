@@ -9,23 +9,23 @@ async function getPartnerData() {
     const response = await fetch(url);
     const data = await response.json();
     // console.table(data.partners); temp testing
-    busAd(data.partners, 3)
+    busAd(data.partners)
 }
 
 getPartnerData();
 
 
 //function to display silver and gold members randomly
-function busAd(businesses, count) {
+function busAd(businesses) {
     //reset gallery 
     cards.innerHTML = "";
     
     silverAndGold = [];
 
-    businesses.forEach(business => {
+    businesses.forEach(business =>{
         let membership = business.memLevel;
         if (membership == 2 || membership ==3) {
-            silverAndGold.push(business.memLevel);
+            silverAndGold.push(business);
         };
     }
     )
@@ -33,7 +33,7 @@ function busAd(businesses, count) {
     silverAndGold.sort();
 
     //return the number of items indicated
-    shortSilverAndGold = silverAndGold.slice(0, count)
+    shortSilverAndGold = silverAndGold.slice(0, 3);
 
     shortSilverAndGold.forEach(item => {
 //create elements
@@ -65,8 +65,8 @@ function busAd(businesses, count) {
 
         //add to section and page
         section.appendChild(logo);
-        section.appendChild(level);
         section.appendChild(name);
+        section.appendChild(level);
         section.appendChild(address);
         section.appendChild(phone);
         section.appendChild(web);
@@ -74,9 +74,3 @@ function busAd(businesses, count) {
         cards.appendChild(section);
     })
 };
-
-
-
-function createCard(items) {
-    
-}
