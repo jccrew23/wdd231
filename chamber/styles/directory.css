@@ -202,6 +202,64 @@ footer {
     text-align: center;
 }
 
+.socialMedia {
+    display: flex; 
+    flex-wrap:wrap; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.facebook {
+    text-decoration:none;
+    border:0;
+    width:36px;
+    height:36px;
+    padding:2px;
+    margin:5px;
+    color:#0172e6;
+    border-radius:50%;
+    background-color:#0d2744;
+}
+
+.twitter {
+    text-decoration:none;
+    border:0;
+    width:36px;
+    height:36px;
+    padding:2px;
+    margin:5px;
+    color:#0172e6;
+    border-radius:50%;
+    background-color:#0d2744;
+}
+
+.youtube {
+    text-decoration:none;
+    border:0;
+    width:36px;
+    height:36px;
+    padding:2px;
+    margin:5px;
+    color:#0172e6;
+    border-radius:50%;
+    background-color:#0d2744;
+}
+
+.niftybutton-facebook {
+    display:block;
+    fill:currentColor
+}
+
+.niftybutton-twitterx {
+    display:block;
+    fill:currentColor
+}
+
+.niftybutton-youtube {
+    display:block;
+    fill:currentColor
+}
+
 .course {
     padding: 1rem;
     text-wrap: pretty;
