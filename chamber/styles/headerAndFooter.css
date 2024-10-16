@@ -92,35 +92,63 @@ footer {
     font-family: var(--paragraphFont);
 }
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-
-  }
-
-  .fa:hover {
-    opacity: 0.7;
-  }
-
-  .fa-twitter {
-    background: #55ACEE;
-    max-width: 15px;
-  }
-
-  .fa-youtube {
-    background: white;
-    max-width: 15px;
-  }
-
-  .fa-facebook {
-    background: #3B5998;
-    max-width: 15px;
-    max-height: 10px;
+.socialMedia {
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-  }
+    justify-content: center;
+}
+
+.facebook {
+    text-decoration: none;
+    border: 0;
+    width: 36px;
+    height: 36px;
+    padding: 2px;
+    margin: 5px;
+    color: #0172e6;
+    border-radius: 50%;
+    background-color: #0d2744;
+}
+
+.twitter {
+    text-decoration: none;
+    border: 0;
+    width: 36px;
+    height: 36px;
+    padding: 2px;
+    margin: 5px;
+    color: #0172e6;
+    border-radius:50%;
+    background-color: #0d2744;
+}
+
+.youtube {
+    text-decoration:none;
+    border:0;
+    width:36px;
+    height:36px;
+    padding:2px;
+    margin:5px;
+    color:#0172e6;
+    border-radius:50%;
+    background-color:#0d2744;
+}
+
+.niftybutton-facebook {
+    display:block;
+    fill:currentColor;
+}
+
+.niftybutton-twitterx {
+    display:block;
+    fill:currentColor;
+}
+
+.niftybutton-youtube {
+    display:block;
+    fill:currentColor;
+}
 
 @media (min-width: 750px) {
     header {
