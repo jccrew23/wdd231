@@ -99,7 +99,31 @@ p, li {
     height: 50;
 }
 
+/* discover page */
 
+#discover {
+    display: grid;
+    grid-template-columns: 33% 66%;
+}
+
+.aside {
+    grid-column: 1/2;
+}
+
+.mainImg {
+    grid-column: 2/3;
+}
+
+#map {
+    height: 100%;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  
 
 
 @media (min-width: 750px) {
@@ -113,4 +137,8 @@ p, li {
         display: flex;
         justify-content: space-around;
     }
+
+    /* discover page */
+
+
 }

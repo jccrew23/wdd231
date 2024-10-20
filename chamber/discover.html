@@ -21,9 +21,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="icon" href="starCityfavicon-16x16.png">
     <script src="scripts/dates.js" defer></script>
-    <script src="scripts/home.js" defer></script>
+    <script src="scripts/discover.js" defer></script>
     <script src="scripts/menu.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/headerAndFooter.css">
 </head>
@@ -40,25 +39,59 @@
             </button>
             <nav>
                 <ul class="navigation">
-                    <li><a href=" " id="active">Home</a></li>
+                    <li><a href="https://jccrew23.github.io/wdd231/chamber/index.html">Home</a></li>
                     <li><a href="https://jccrew23.github.io/wdd231/chamber/directory.html">Directory</a></li>
                     <li><a href=" ">Join</a></li>
-                    <li><a href=" ">Discover</a></li>
+                    <li><a href="https://jccrew23.github.io/wdd231/chamber/discover.html" id="active">Discover</a></li>
                 </ul>
             </nav>
         </section>
     </header>
-    <main>
+    <main id="discover">
         <section class="aside">
+            <div class="population">
+                <h2>Current Population</h2>
+                <span id="census"></span>
+            </div>
+            <div class="quotes">
+                <span id="slider"></span>
+                <h2>Quotes</h2>
+                <img name="slide" width="400">
+            </div>
+            <div class="maps">
+                <h2>Where are we?</h2>
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.1252196948353!2d-79.97024942417931!3d37.26845764116443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884d0c4db9d53c05%3A0xda041f02406938dc!2s1023%20Memorial%20Ave%20SW%2C%20Roanoke%2C%20VA%2024015!5e0!3m2!1sen!2sus!4v1729395227473!5m2!1sen!2sus" width="400" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+            <div class="calendar">
+                <span id="calendarView"></span>
+                <h2>Calendar</h2>
+            </div>
 
         </section>
         <section class="mainImg">
-            <img alt="Photo by Jan Brndiar: https://www.pexels.com/photo/serene-mountain-lake-with-boats-in-foggy-autumn-28926066/">
-            <img>
-            <img>
-            <img>
-            <img>
-            <img>
+            <figure>
+                <img src="images/blueCowRkeVA.webp" alt="Blue Cow Ice Cream Shop in Roanoke, VA. Photo by Jan Brndiar: https://www.pexels.com/photo/serene-mountain-lake-with-boats-in-foggy-autumn-28926066/" width="600">
+                <figcaption>Blue Cow Ice Cream</figcaption>
+            </figure>
+            <figure>
+                <img src="images/blueRidgePkwyRkeVA.webp" alt="Blue Ridge Parkway stretch through Roanoke, VA in the Autumn" width="600">
+                <figcaption>Blue Ridge Parkway</figcaption>
+            </figure>
+            <figure>
+                <img src="images/hotelRkeVA.webp" alt="Hotel Roanoke exterior view from the front in Roanoke, VA" width="600">
+                <figcaption>Hotel Roanoke</figcaption>
+            </figure>
+            <figure>
+                <img src="images/marketStreetRkeVA.webp" alt="Downtown Roanoke, VA looking at market street" width="600">
+                <figcaption>Market Street Downtown Roanoke</figcaption>
+            </figure>
+            <figure>
+                <img src="images/taubmanArtRkeVA.webp" alt="Taubman Art Museum Roanoke, VA" width="600">
+                <figcaption>Taubman Art Museum</figcaption>
+            </figure>
+            <figure>
+                <img src="images/smithMtnLakeVA.webp" alt="Scenic view of Smith Mountain Lake in Soutwest Virgina with Canoes looking over the water and rolling hills" width="600">
+                <figcaption>Smith Mountain Lake</figcaption>
+            </figure>
         </section>    
     </main>
     <footer>

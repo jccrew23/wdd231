@@ -75,3 +75,4 @@ function busAd(businesses) {
         cards.appendChild(section);
     })
 };
+
