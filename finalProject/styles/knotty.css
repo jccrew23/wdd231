@@ -35,6 +35,7 @@ h2 {
 
 p, li {
     font-family: var(--paragraphFont);
+    font-size: 1.5rem;
 }
 
 .logo {
@@ -76,4 +77,5 @@ ul {
     display: flex;
     align-content: space-around;
     align-items: center;
+    padding: 20px;
 }
