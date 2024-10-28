@@ -56,30 +56,5 @@ function changeImg(){
 
 window.onload = changeImg;
 
-//CALENDAR
-//call json data
-
-//save url
-const dateURL = 'https://jccrew23.github.io/wdd231/chamber/data/daysMonthYear.json';
-
-//function for fetch
-async function getCalData() {
-    const response = await fetch(dateURL);
-    const data = await response.json();
-    console.table(data.partners); //temp testing
-    // displayCards(data.partners);
-}
-
-getCalData();
 
 
-//create table function
-function createTable() {
-    const table = document.querySelector('#calendarView');
-
-    const currentDate = new Date();
-
-    console.log(currentDate);
-}
-
-createTable();

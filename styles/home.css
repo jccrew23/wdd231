@@ -178,6 +178,13 @@ h3 {
     width: 100%;
 }
 
+#discover {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+
+
 footer {
     font-family: var(--paragraph-font);
     padding: 10px;
@@ -188,6 +195,7 @@ footer {
 
 
 @media (min-width: 750px) {
+
     main {
         max-width: 1000px;
         display: grid;

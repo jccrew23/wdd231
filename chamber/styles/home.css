@@ -101,17 +101,13 @@ p, li {
 
 /* discover page */
 
-#discover {
+ main #discover {
     display: grid;
-    grid-template-columns: 33% 66%;
+    grid-template-columns: 1fr;    
 }
 
-.aside {
-    grid-column: 1/2;
-}
-
-.mainImg {
-    grid-column: 2/3;
+figure {
+    max-width: 300px;
 }
 
 #map {
@@ -139,6 +135,17 @@ p, li {
     }
 
     /* discover page */
-
+    #discover {
+        display: grid;
+        grid-template-columns: 33% 66%;
+    }
+    
+    .aside {
+        grid-column: 1/2;
+    }
+    
+    .mainImg {
+        grid-column: 2/3;
+    }
 
 }
