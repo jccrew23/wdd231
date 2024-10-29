@@ -34,7 +34,7 @@
             "productType" : "yarn"
         },
         {
-            "productName" : "Strawberry Cookies and Creme Trio",
+            "productName" : "Strawberry Cookies and Creme",
             "imageFile" : "strawberryCookiesAndCreme.webp",
             "price" : 30.99,
             "description" : "Indulge in a sweet treat with our Strawberry Cookies and Cream Yarn! This delightful blend features soft pinks and creamy whites, reminiscent of your favorite dessert. Perfect for knitting or crocheting cozy accessories, whimsical garments, or playful home decor, this worsted-weight yarn combines softness with durability. Let the delicious colors inspire your next project and add a touch of sweetness to your crafting experience!",
@@ -90,7 +90,7 @@
             "productType" : "kit"
         },
         {
-            "productName" : "Bubble Gum Crochet Hook Kit",
+            "productName" : "Bubble Gum Hook Kit",
             "imageFile" : "bubbleGumHooks.webp",
             "price" : 25.99,
             "description" : "Add a pop of color to your crafting with our Bubble Gum Crochet Hook Kit! This cheerful set features a variety of hook sizes, each adorned in fun, bubble gum-inspired hues. Made from lightweight, durable materials, these hooks provide a comfortable grip for hours of crocheting bliss. Whether you’re a beginner or a seasoned pro, this kit is perfect for tackling projects of all sizes with a splash of fun and flair!",
@@ -114,8 +114,8 @@
             "productType" : "kit"
         },
         {
-            "productName" : "Knotty Projects Inspiration Book",
-            "imageFile" : "projectsBook.webp",
+            "productName" : "Knotty Inspiration Book",
+            "imageFile" : "projectBook.webp",
             "price" : 35.99,
             "description" : "Dive into creativity with Knotty Projects, your go-to knitting project book! Featuring a curated selection of unique patterns and designs, this book is perfect for knitters of all levels. From playful accessories to stylish garments, each project includes easy-to-follow instructions and helpful tips. With inspiring ideas and space for your notes, Knotty Projects is the perfect companion for your next crafting adventure. Get ready to stitch up something fabulous!",
             "attribution" : "Photo by Anete Lusina",

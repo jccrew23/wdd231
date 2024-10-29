@@ -45,7 +45,6 @@ icon.addEventListener('click', ()=> {
 const productUrl = 'https://jccrew23.github.io/wdd231/finalProject/data/fiberProducts.json';
 
 //grab section from HTML
-const prod = document.querySelector('#products');
 const prodPreview = document.querySelector('#productsPreview');
 
 //function for fetch
@@ -100,37 +99,7 @@ function displayProductPreview(data) {
      })
 }
 
-function displayProducts(data) {
-    //reset gallery
-    prod.innerHTML = '';
 
-    //look through each item in array
-    data.forEach(item =>{
-
-        //create elements
-        let crd = document.createElement('section');
-        crd.setAttribute('class','card');
-        let prodName = document.createElement('h3');
-        let price = document.createElement('p');
-        const imgFile = `images/${item.imageFile}`;
-
-        //set picture attributes
-        picture.setAttribute('src', imgFile);
-        picture.setAttribute('alt','item.description');
-        picture.setAttribute('loading','lazy');
-        picture.setAttribute('width','200');
-        //add text
-        prodName.innerHTML = item.productName;
-        price.innerHTML = `$${item.price}`
-
-        //append to card and document
-        crd.appendChild(prodName);
-        crd.appendChild(picture);
-        crd.appendChild(price);
-
-        prod.appendChild(crd);
-    })
-};
 
 //current year
 document.querySelector('#currentyear').innerHTML = `©${new Date().getFullYear()}`;

@@ -258,6 +258,24 @@ footer{
         grid-gap: 0;
     }
 
+    #products {
+        display: grid;
+        grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66%;
+        margin: auto;
+        grid-gap: 50px;
+        margin: 20px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .shopTitle {
+        padding: 50px;
+    }
+
+    .items {
+        margin: auto;
+    }
+
     /* footer */
     footer {
         display: grid;
