@@ -1,3 +1,4 @@
+{
 "products" : [
     {
         "productName" : "Pretty Pastel Trio",
@@ -152,4 +153,4 @@
         "attribution" : "Photo by Anete Lusina",
         "productType" : "book"
     }
-] 
+] }

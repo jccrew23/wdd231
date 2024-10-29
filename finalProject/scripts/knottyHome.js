@@ -40,6 +40,24 @@ icon.addEventListener('click', ()=> {
     navigation.classList.toggle('open');
 })
 
+//pull json
+//save the url
+const productUrl = 'https://jccrew23.github.io/wdd231/finalProject/data/fiberProducts.json';
+
+//grab section from HTML
+const prod = document.querySelector('#products');
+const prodPreview = document.querySelector('#productsPreview');
+
+//function for fetch
+async function getProductData() {
+    const response = await fetch(productUrl);
+    const data = await response.json();
+    console.table(data.products); //temp testing
+    // displayCards(data.products);
+}
+
+getProductData();
+
 
 
 
