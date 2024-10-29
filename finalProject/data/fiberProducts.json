@@ -1,0 +1,155 @@
+"products" : [
+    {
+        "productName" : "Pretty Pastel Trio",
+        "imageFile" : "images/pastels.webp",
+        "price" : "$30.99",
+        "description" : "Immerse yourself in a world of soft hues with our Pastel Dreams Yarn Set,
+                        featuring three enchanting skeins. Each skein is crafted from a premium blend of fibers, 
+                         offering a buttery-soft texture that glides effortlessly through your fingers. The lightweight, 
+                        worsted weight yarn is perfect for a variety of projects, from whimsical baby blankets to delicate shawls and charming home decor.",
+        "attribution" : "Photo by Surene Palvie",
+        "productType" : "yarn"
+    },
+    {
+        "productName" : "Red Radiance Trio",
+        "imageFile" : "images/onlyReds.webp",
+        "price" : "$30.99",
+        "description" : "Ignite your creativity with our Red Radiance Yarn Trio, featuring three stunning skeins that 
+        celebrate the vibrant hues of red. Each skein is crafted from a high-quality blend of fibers, ensuring a luxurious feel 
+        and excellent durability. The worsted weight makes it perfect for a variety of applications, from bold sweaters to striking 
+        accessories and home decor.",
+        "attribution" : "Photo by Surene Palvie",
+        "productType" : "yarn"
+
+    },
+    {
+        "productName" : "Luxurious Beige",
+        "imageFile" : "images/beige.webp",
+        "price" : "$13.99",
+        "description" : "Elevate your crafting projects with our Luxurious Beige Worsted Yarn, a versatile staple for knitters and crocheters alike.
+         This beautifully soft yarn boasts a warm, neutral beige hue, making it perfect for a variety of projects, from cozy sweaters to delicate accessories.
+        Crafted from a premium blend of natural fibers, this yarn offers a smooth texture and excellent stitch definition, ensuring your creations look polished and professional. ",
+        "attribution" : "Photo by Steve Johnson",
+        "productType" : "yarn"
+    },
+    {
+        "productName" : "Apple Orchard",
+        "imageFile" : "images/apples.webp",
+        "price" : "$13.99",
+        "description" : "Capture the essence of apple orchards with our Orchard Delight Yarn, featuring a beautiful blend of rich red and vibrant green hues. 
+        This worsted-weight yarn is perfect for creating cozy sweaters, festive accessories, or charming home decor inspired by the fall harvest. Soft and durable, 
+        it glides smoothly on needles or hooks, making your crafting experience as enjoyable as a stroll through a sun-dappled orchard. Embrace the warmth of autumn with every stitch!",
+        "attribution" : "Photo by lil artsy",
+        "productType" : "yarn"
+    },
+    {
+        "productName" : "Strawberry Cookies and Creme Trio",
+        "imageFile" : "images/strawberryCookiesAndCreme.webp",
+        "price" : "$30.99",
+        "description" : "Indulge in a sweet treat with our Strawberry Cookies and Cream Yarn! This delightful blend features soft pinks and creamy whites, 
+        reminiscent of your favorite dessert. Perfect for knitting or crocheting cozy accessories, whimsical garments, or playful home decor, 
+        this worsted-weight yarn combines softness with durability. Let the delicious colors inspire your next project and add a touch of sweetness to your crafting experience!",
+        "attribution" : "Photo by cottonbro",
+        "productType" : "yarn"
+    },
+    {
+        "productName" : "Gloomy Skies",
+        "imageFile" : "images/gloomy.webp",
+        "price" : "$13.99",
+        "description" : "Embrace the moody beauty of overcast days with our Gloomy Skies Yarn. This enchanting blend of deep grays, soft blues, and hints of misty lavender 
+        captures the essence of a tranquil, cloudy afternoon. Perfect for creating cozy sweaters, shawls, or blankets, this worsted-weight yarn offers both warmth and comfort. 
+        Let the serene colors inspire your next project and bring a touch of calm to your crafting journey!",
+        "attribution" : "Photo by cottonbro",
+        "productType" : "yarn"
+    },
+    {
+        "productName" : "Knotty Neutrals",
+        "imageFile" : "images/neutrals.webp",
+        "price" : "$20.99",
+        "description" : "Discover the beauty of simplicity with our Knotty Neutrals Yarn. This versatile collection features a harmonious blend of soft white, cool grey, 
+        and stark black, perfect for any project. Ideal for creating timeless garments, elegant accessories, or cozy home decor, this worsted-weight yarn provides a classic 
+        foundation for your creativity. Embrace the understated charm of neutral tones and let your imagination shine through every stitch!",
+        "attribution" : "Photo by cottonbro",
+        "productType" : "yarn"
+    },
+    {
+        "productName" : "Minty Fresh",
+        "imageFile" : "images/mintyFresh.webp",
+        "price" : "$10.99",
+        "description" : "Refresh your crafting with our Minty Fresh Yarn! This delightful blend of soft mint green and crisp white evokes the feeling of a cool breeze on a sunny day. 
+        Perfect for light, breezy garments, cheerful accessories, or playful home decor, this worsted-weight yarn is both soft and durable. Let the invigorating colors inspire your 
+        next project and bring a breath of fresh air to your creations!",
+        "attribution" : "Photo by cottonbro",
+        "productType" : "yarn"
+    },
+    {
+        "productName" : "Cake Batter",
+        "imageFile" : "images/cakeBatter.webp",
+        "price" : "$10.99",
+        "description" : "Whisk up some fun with our Cake Batter Yarn! This delightful blend of buttery yellows and soft whites captures the sweet essence of freshly mixed cake batter. 
+        Perfect for creating cozy garments, playful accessories, or charming home decor, this worsted-weight yarn is as soft as it is cheerful. Let the scrumptious colors inspire 
+        your next project and bring a dash of sweetness to your crafting adventures!",
+        "attribution" : "Photo by cottonbro",
+        "productType" : "yarn"
+    },
+    {
+        "productName" : "Berry Sweet Trio",
+        "imageFile" : "images/berrySweet.webp",
+        "price" : "$30.99",
+        "description" : "Savor the delicious hues of our Berry Sweet Yarn Trio! This vibrant set features three luscious shades inspired by your favorite berries—ripe raspberry, 
+        juicy blueberry, and luscious strawberry. Perfect for knitting or crocheting cozy accessories, vibrant garments, or delightful home decor, this worsted-weight yarn is 
+        both soft and durable. With 600 yards of color inspiration at your fingertips, let your creativity flourish with this berry delightful collection!",
+        "attribution" : "Photo by Surene Palvie",
+        "productType" : "yarn"
+    },
+    {
+        "productName" : "Fruity Tuti Knitting Kit",
+        "imageFile" : "images/fruityTuti.webp",
+        "price" : "$49.99",
+        "description" : "Get ready for a colorful crafting adventure with our Fruity Tuti Knitting Kit! This fun kit includes vibrant yarn in fruity shades, a pair of stylish scissors, 
+        and a set of smooth needles, all designed to spark your creativity. Perfect for beginners and seasoned knitters alike, this kit makes it easy to whip up delightful projects while 
+        enjoying the cheerful, fruity vibe. Dive into your next knitting journey with this playful, all-in-one set!",
+        "attribution" : "Photo by Surene Palvie",
+        "productType" : "kit"
+    },
+    {
+        "productName" : "Bubble Gum Crochet Hook Kit",
+        "imageFile" : "images/bubbleGumHooks.webp",
+        "price" : "$25.99",
+        "description" : "Add a pop of color to your crafting with our Bubble Gum Crochet Hook Kit! This cheerful set features a variety of hook sizes, each adorned in fun, 
+        bubble gum-inspired hues. Made from lightweight, durable materials, these hooks provide a comfortable grip for hours of crocheting bliss. Whether you’re a beginner or a seasoned pro, 
+        this kit is perfect for tackling projects of all sizes with a splash of fun and flair!",
+        "attribution" : "Photo by Anete Lusina",
+        "productType" : "needles"
+    },
+    {
+        "productName" : "Blackberry Knitting kit",
+        "imageFile" : "images/blackberryKit.webp",
+        "price" : "$49.99",
+        "description" : "Immerse yourself in the rich hues of our Blackberry Bliss Knitting Kit! This thoughtfully curated kit includes soft, blackberry-colored yarn, a set of smooth knitting needles,
+        and a stylish yarn container to keep your supplies organized. Perfect for knitters of all levels, this kit has everything you need to create cozy projects with a touch of elegance. Unleash your 
+        creativity and enjoy the delightful process of knitting with this berry-inspired set!",
+        "attribution" : "Photo by Surene Palvi",
+        "productType" : "kit"
+    },
+    {
+        "productName" : "FavReds Crochet Hooks",
+        "imageFile" : "images/favRedsHooks.webp",
+        "price" : "$25.99",
+        "description" : "Brighten your crafting with our favReds Crochet Hooks! This vibrant set features a variety of sizes, each adorned in rich red tones that inspire creativity. Made from lightweight, 
+        durable materials, these hooks offer a comfortable grip and smooth glide through your yarn. Perfect for projects of all kinds, these hooks will add a cheerful pop of color to your crochet collection 
+        and enhance your crafting experience!",
+        "attribution" : "Photo by Castorly Stock",
+        "productType" : "kit"
+    },
+    {
+        "productName" : "Knotty Projects Inspiration Book",
+        "imageFile" : "images/projectsBook.webp",
+        "price" : "$35.99",
+        "description" : "Dive into creativity with Knotty Projects, your go-to knitting project book! Featuring a curated selection of unique patterns and designs, this book is perfect for knitters of all levels. 
+        From playful accessories to stylish garments, each project includes easy-to-follow instructions and helpful tips. With inspiring ideas and space for your notes, Knotty Projects is the perfect companion 
+        for your next crafting adventure. Get ready to stitch up something fabulous!",
+        "attribution" : "Photo by Anete Lusina",
+        "productType" : "book"
+    }
+] 

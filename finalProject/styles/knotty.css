@@ -7,10 +7,17 @@
     --accentColor: #6bccc3;
 }
 
+/* general applications to each page */
 body {
     margin: 0;
     padding: 0;
     max-width: 100%;
+}
+
+header {
+    display: block;
+    max-width: 100%;
+    margin: auto;
 }
 
 main {
@@ -22,22 +29,25 @@ main {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+
+
 h2, p, ul, img {
     padding: 10px;
 }
 
 
-h2 {
+h2, li {
     font-family: var(--headingFont);
     font-size: 2rem;
     text-align: center;
 }
 
-p, li {
+p, span{
     font-family: var(--paragraphFont);
     font-size: 1.5rem;
 }
 
+/* header */
 .logo {
     background-color: var(--secondaryColor);
 }
@@ -46,12 +56,72 @@ p, li {
     margin: auto;
 }
 
-ul {
-    width: 500px;
+#headerLogo {
     margin: auto;
-    justify-content:  center;
+    position: relative;
+    display: block;
+    padding: 0;
 }
 
+
+
+#banner {
+    background-color: var(--accentColor);
+    width: 100%;
+    margin: auto;
+    font-size: 1.3rem;
+    display: flex;
+    text-align: center;
+    padding: 5px;
+}
+
+.welcomeMessage {
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    align-content: center;
+}
+
+/* ham menu */
+
+#hamMenu {
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    display: block;
+}
+
+ul {
+    margin: 10px auto;
+    justify-content:  center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.navigation li {
+    display: none;
+    list-style-type: none;
+    max-width: 600px;
+    background-color: var(--secondaryColor);
+    margin: 3px auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.open li {
+    display: block;
+}
+
+li:hover {
+    border: 5px solid var(--accentColor);
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+/* site plan page */
 .pink {
     background-color: var(--secondaryColor);
     width: 150px;
@@ -78,4 +148,20 @@ ul {
     align-content: space-around;
     align-items: center;
     padding: 20px;
+}
+
+@media (min-width: 750px) {
+    .navigation li {
+        display: block;
+        width: 100%;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    #hamMenu {
+        display: none;
+    }
+
 }
