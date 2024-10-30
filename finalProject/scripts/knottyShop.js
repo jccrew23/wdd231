@@ -14,6 +14,9 @@ async function getProductData() {
 //call function to get json
 getProductData();
 
+//make modals functional
+// makeModal();
+
 function displayProducts(data) {
     
 
@@ -28,6 +31,24 @@ function displayProducts(data) {
         const imgFile = `images/${item.imageFile}`;
         let picture = document.createElement('img');
 
+        let openButton = document.createElement('button');
+        openButton.setAttribute('type','button');
+        openButton.setAttribute('class','openButton');
+        openButton.innerHTML = `Details`;
+
+        let modalId = `modal${item.prodName}`;
+        let descDialog = document.createElement('dialog');
+        descDialog.setAttribute('id', modalId);
+        let desc = document.createElement('p');
+        desc.innerHTML = `${item.description}`;
+        let closeButton = document.createElement('button');
+        closeButton.setAttribute('type','button');
+        closeButton.setAttribute('class','closeButton');
+        closeButton.innerHTML = `❌`;
+
+        descDialog.append(closeButton);
+        descDialog.append(desc);
+
         //set picture attributes
         picture.setAttribute('src', imgFile);
         picture.setAttribute('alt','item.description');
@@ -41,10 +62,41 @@ function displayProducts(data) {
         crd.appendChild(prodName);
         crd.appendChild(picture);
         crd.appendChild(price);
+        crd.appendChild(openButton);
+        crd.appendChild(descDialog);
 
         prod.appendChild(crd);
+
+        const modal = document.querySelector(modalID);
+        const openModal = document.querySelector('.openButton');
+        const closeModal = document.querySelector('.closeButton');
+    
+        openModal.addEventListener('click', () => {
+            modal.showModal();
+        });
+    
+        closeModal.addEventListener('click', () => {
+            modal.close();
+        });
     })
+    
 }
+
+
+function makeModal() {
+    // const modal = document.querySelector('#modal');
+    // const openModal = document.querySelector('.openButton');
+    // const closeModal = document.querySelector('.closeButton');
+    
+    // openModal.addEventListener('click', () => {
+    //     modal.showModal();
+    // });
+    
+    // closeModal.addEventListener('click', () => {
+    //     modal.close();
+    // });
+}
+
 
 //current year
 document.querySelector('#currentyear').innerHTML = `©${new Date().getFullYear()}`;
