@@ -36,9 +36,9 @@ function displayProducts(data) {
         openButton.setAttribute('class','openButton');
         openButton.innerHTML = `Details`;
 
-        let modalId = `modal${item.prodName}`;
         let descDialog = document.createElement('dialog');
-        descDialog.setAttribute('id', modalId);
+        let modalID = `modal${item.id}`;
+        descDialog.setAttribute('id', modalID);
         let desc = document.createElement('p');
         desc.innerHTML = `${item.description}`;
         let closeButton = document.createElement('button');
@@ -67,35 +67,19 @@ function displayProducts(data) {
 
         prod.appendChild(crd);
 
-        const modal = document.querySelector(modalID);
-        const openModal = document.querySelector('.openButton');
-        const closeModal = document.querySelector('.closeButton');
     
-        openModal.addEventListener('click', () => {
-            modal.showModal();
+        openButton.addEventListener('click', () => {
+            descDialog.showModal();
         });
     
-        closeModal.addEventListener('click', () => {
-            modal.close();
-        });
+        closeButton.addEventListener('click', () => {
+            descDialog.close();
+        });     
     })
     
 }
 
 
-function makeModal() {
-    // const modal = document.querySelector('#modal');
-    // const openModal = document.querySelector('.openButton');
-    // const closeModal = document.querySelector('.closeButton');
-    
-    // openModal.addEventListener('click', () => {
-    //     modal.showModal();
-    // });
-    
-    // closeModal.addEventListener('click', () => {
-    //     modal.close();
-    // });
-}
 
 
 //current year

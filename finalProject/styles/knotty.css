@@ -161,6 +161,60 @@ li:hover {
     padding: 20px;
 }
 
+#map {
+    width: 100%;
+    height: 400px;
+}
+
+.contactMain {
+    max-width: 700px;
+}
+
+.confirmation {
+    padding: 40px;
+}
+
+.contactHeader{
+    padding-top: 50px;
+}
+
+.thanks {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 500px;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+}
+
+.firstName, .lastName, .email, .phone, textarea, #agreement, #submit {
+    padding: 10px;
+    font-family: var(--headingFont);
+}
+
+#agreementLabel {
+    font-family: var(--headingFont);
+}
+
+#submit {
+    border-radius: 15%;
+    border: 1px solid var(--primaryColor);
+    background-color: var(--accentColor);
+    width: 120px;
+    margin: 20px;
+}
+
+.attributions a{
+    font-size: 1rem;
+}
+
+
+
 /* footer */
 footer{
     display: block;

@@ -99,8 +99,27 @@ function displayProductPreview(data) {
      })
 }
 
+function initMap() {
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 8,
+      center: { lat: 37.29718696865901, lng: -80.03045997614602 },
+    });
+    const marker = new google.maps.Marker({
+        position: { lat: 37.29718696865901, lng: -80.03045997614602 },
+        map: map,
+      });
+      
+      const infowindow = new google.maps.InfoWindow({
+        content: "Knotty Intentions",
+      });
+      
+      marker.addListener("click", () => {
+        infowindow.open(map, marker);
+      });
+  }
 
-
+  window.addEventListener("load", initMap);
+  
 //current year
 document.querySelector('#currentyear').innerHTML = `©${new Date().getFullYear()}`;
 
